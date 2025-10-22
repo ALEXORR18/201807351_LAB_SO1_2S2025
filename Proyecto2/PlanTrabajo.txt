@@ -1,0 +1,33 @@
+🗓️ Plan de Trabajo Sugerido
+SO1-Proyecto2
+Semana 1 – Entorno y Módulo Kernel
+
+Instala headers del kernel, gcc, make.
+
+Crea módulo simple “Hello /proc” para probar.
+
+Itera task_struct para listar procesos y extraer métricas.
+
+Exporta en JSON a /proc/continfo_so1_<carnet> y /proc/sysinfo_so1_<carnet>.
+
+Semana 2 – Daemon en Go
+
+Usa os.ReadFile y encoding/json para leer y parsear.
+
+Conecta a SQLite (database/sql + github.com/mattn/go-sqlite3).
+
+Loop cada 20 s, registra logs, aplica umbrales para eliminar contenedores.
+
+Semana 3 – Cronjob y Docker
+
+Scripts bash para generar contenedores con distintas cargas.
+
+Configura crontab desde Go.
+
+Semana 4 – Grafana y Documentación
+
+Docker-compose para Grafana + SQLite.
+
+Crea paneles solicitados.
+
+Redacta manual técnico y de usuario.

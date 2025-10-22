@@ -1,0 +1,9 @@
+# Imagen base
+FROM ubuntu:24.04
+
+# Instalar herramientas básicas
+RUN apt-get update && apt-get install -y stress
+
+# Comando para consumir CPU y RAM
+CMD ["stress", "--vm", "1", "--vm-bytes", "200M", "--timeout", "300s"]
+# Este comando consume 200MB de RAM y carga la CPU al 100% durante 300 segundos

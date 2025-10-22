@@ -1,0 +1,1 @@
+/home/alexander/Escritorio/Sistemas_Operativos_1/201807351_LAB_SO1_2S2025/Proyecto2/Kernel/proceso_monitor.o

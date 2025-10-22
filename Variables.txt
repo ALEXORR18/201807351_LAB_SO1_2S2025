@@ -1,0 +1,63 @@
+192.168.122.16 VM1
+192.168.122.30 VM2
+192.168.122.169 VM3
+
+docker build --no-cache -t virtualmachine1:API-1 .
+docker build --no-cache -t virtualmachine1:API-2 .
+docker build --no-cache -t virtualmachine2:API-3 .
+
+docker tag virtualmachine1:API-1 192.168.122.16:5000/virtualmachine1:API-1
+docker tag virtualmachine1:API-2 192.168.122.16:5000/virtualmachine1:API-2
+docker tag virtualmachine2:API-3 192.168.122.30:5000/virtualmachine2:API-3
+
+docker push 192.168.122.169:5000/virtualmachine1:API-1
+docker push 192.168.122.169:5000/virtualmachine1:API-2
+docker push 192.168.122.169:5000/virtualmachine2:API-3
+
+curl http://192.168.122.169:5000/v2/_catalog
+
+//pOR API
+sudo ctr images pull --plain-http 192.168.122.169:5000/virtualmachine1:API-1
+sudo ctr images pull --plain-http 192.168.122.169:5000/virtualmachine1:API-2
+sudo ctr images pull --plain-http 192.168.122.169:5000/virtualmachine2:API-3
+
+sudo ctr run -d --net-host 192.168.122.169:5000/virtualmachine1:API-1 api-1
+sudo ctr run -d --net-host 192.168.122.169:5000/virtualmachine1:API-2 api-2
+sudo ctr run -d --net-host 192.168.122.169:5000/virtualmachine2:API-3 api-3
+
+
+# API1 (VM1)
+docker tag virtualmachine1:API-1 192.168.122.169:5000/virtualmachine1:API-1
+
+# API2 (VM1)
+docker tag virtualmachine1:API-2 192.168.122.169:5000/virtualmachine1:API-2
+
+# API3 (VM2) → corrigiendo el typo
+docker tag virtualmachine2:API-3 192.168.122.169:5000/virtualmachine2:API-3
+
+
+docker push 192.168.122.169:5000/virtualmachine1:API-1
+docker push 192.168.122.169:5000/virtualmachine1:API-2
+docker push 192.168.122.169:5000/virtualmachine2:API-3
+
+
+
+#Matar api-1
+sudo ctr task kill api-1
+sudo ctr task delete api-1
+sudo ctr container delete api-1
+sudo ctr images rm 192.168.122.169:5000/virtualmachine1:VIRTUALMACHINE1
+sudo ctr images ls -q | xargs sudo ctr images rm
+
+
+sudo ctr task pause api-3
+sudo ctr task resume api-3
+
+sudo ctr task start -d api-1
+sudo ctr task start -d api-2
+sudo ctr task start -d api-3
+
+
+http://192.168.122.16:3000/api1/201807351/llamar-api3
+http://192.168.122.16:3001/api2/201807351/llamar-api3
+http://192.168.122.30:3002/api3/201807351/llamar-api1

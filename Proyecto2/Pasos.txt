@@ -1,0 +1,7 @@
+Pasos para cargar y probar un modulo:
+1. Cargar MOdulo:
+sudo insmod proceso_monitor.ko
+2. Verificar que se cargo:
+sudo dmesg | tail -n 5
+3. PRobar el archivo:
+cat /proc/proc_monitor

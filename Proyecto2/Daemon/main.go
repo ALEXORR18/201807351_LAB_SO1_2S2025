@@ -1,162 +1,109 @@
 package main
 
 import (
-	//"bufio"
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
-
-	//"path/filepath"
-	//"strconv"
-	//"strings"
+	"strings"
 	"time"
+
+	"github.com/shirou/gopsutil/mem"
+	"github.com/shirou/gopsutil/process"
 )
 
-// Estructura de cada proceso
 type ProcessInfo struct {
-	PID  int    `json:"PID"`
-	Name string `json:"Name"`
-	VSZ  uint64 `json:"VSZ"` // en KB
-	RSS  uint64 `json:"RSS"` // en KB
+	PID     int     `json:"PID"`
+	Name    string  `json:"Name"`
+	Cmdline string  `json:"Cmdline,omitempty"`
+	VSZ     int     `json:"VSZ"`
+	RSS     int     `json:"RSS"`
+	MemPerc float64 `json:"Memory_Usage"`
+	CPUPerc float64 `json:"CPU_Usage"`
 }
 
-// Estructura del JSON final
-type SysInfo struct {
-	Processes []ProcessInfo `json:"Processes"`
+type SystemInfo struct {
+	TotalMemMB int           `json:"TotalMemMB"`
+	FreeMemMB  int           `json:"FreeMemMB"`
+	UsedMemMB  int           `json:"UsedMemMB"`
+	Processes  []ProcessInfo `json:"Processes"`
+	Containers []ProcessInfo `json:"Containers"`
 }
 
-// Archivo generado por el módulo
-const procFile = "/proc/proc_monitor"
-const interval = 5 * time.Second
-
-/* func main() {
-	fmt.Println("Daemon iniciado: leyendo", procFile)
-
+func main() {
 	for {
-		sysInfo := SysInfo{}
-
-		file, err := os.Open(procFile)
+		content, err := os.ReadFile("/proc/proc_monitor")
 		if err != nil {
-			fmt.Println("Error al abrir", procFile, ":", err)
-			time.Sleep(interval)
+			log.Println("Error leyendo /proc/proc_monitor:", err)
+			time.Sleep(5 * time.Second)
 			continue
 		}
 
-		scanner := bufio.NewScanner(file)
-		for scanner.Scan() {
-			line := scanner.Text()
-			// Ejemplo: "PID:1234 Name:containerd-shim CPU:1000"
-			fields := strings.Fields(line)
-			if len(fields) < 2 {
-				continue
-			}
+		var procs []ProcessInfo
+		if err := json.Unmarshal(content, &procs); err != nil {
+			log.Println("Error parseando JSON del módulo:", err)
+			time.Sleep(5 * time.Second)
+			continue
+		}
 
-			// Parsear PID
-			pidStr := strings.TrimPrefix(fields[0], "PID:")
-			pid, err := strconv.Atoi(pidStr)
+		vm, err := mem.VirtualMemory()
+		if err != nil {
+			log.Println("Error obteniendo info de memoria:", err)
+			time.Sleep(5 * time.Second)
+			continue
+		}
+
+		var allProcs []ProcessInfo
+		var containers []ProcessInfo
+
+		for _, p := range procs {
+			proc, err := process.NewProcess(int32(p.PID))
 			if err != nil {
 				continue
 			}
 
-			// Parsear nombre
-			name := strings.TrimPrefix(fields[1], "Name:")
+			// CMD line
+			cmdline, _ := proc.Cmdline()
+			p.Cmdline = cmdline
 
-			// Obtener VSZ y RSS desde /proc/<pid>/statm
-			statmPath := filepath.Join("/proc", pidStr, "statm")
-			vsz, rss := getMemStat(statmPath)
-
-			proc := ProcessInfo{
-				PID:  pid,
-				Name: name,
-				VSZ:  vsz,
-				RSS:  rss,
+			// Memoria
+			memInfo, err := proc.MemoryInfo()
+			if err == nil {
+				p.RSS = int(memInfo.RSS / 1024)
+				p.VSZ = int(memInfo.VMS / 1024)
+				p.MemPerc = float64(memInfo.RSS) / float64(vm.Total) * 100
 			}
 
-			sysInfo.Processes = append(sysInfo.Processes, proc)
+			// CPU
+			cpuPerc, err := proc.CPUPercent()
+			if err == nil {
+				p.CPUPerc = cpuPerc
+			}
+
+			allProcs = append(allProcs, p)
+
+			// Filtrar contenedores
+			if strings.Contains(strings.ToLower(p.Name), "container") ||
+				strings.Contains(strings.ToLower(cmdline), "container") {
+				containers = append(containers, p)
+			}
 		}
 
-		file.Close()
-
-		// Guardar JSON en disco
-		outFile := "sysinfo.json"
-		saveJSON(outFile, sysInfo)
-
-		time.Sleep(interval)
-	}
-}
-
-// Función para obtener VSZ y RSS desde /proc/<pid>/statm
-func getMemStat(path string) (uint64, uint64) {
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return 0, 0
-	}
-	parts := strings.Fields(string(data))
-	if len(parts) < 2 {
-		return 0, 0
-	}
-	pageSizeKB := uint64(os.Getpagesize() / 1024)
-	vsz, _ := strconv.ParseUint(parts[0], 10, 64)
-	rss, _ := strconv.ParseUint(parts[1], 10, 64)
-	return vsz * pageSizeKB, rss * pageSizeKB
-}
-
-// Función para guardar JSON en disco
-func saveJSON(path string, data SysInfo) {
-	f, err := os.Create(path)
-	if err != nil {
-		fmt.Println("Error creando archivo JSON:", err)
-		return
-	}
-	defer f.Close()
-
-	encoder := json.NewEncoder(f)
-	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(data); err != nil {
-		fmt.Println("Error escribiendo JSON:", err)
-	}
-} */
-
-func main() {
-	fmt.Println("Daemon iniciado: leyendo", procFile)
-
-	for {
-		sysInfo := SysInfo{}
-
-		fileData, err := os.ReadFile(procFile)
-		if err != nil {
-			fmt.Println("Error al leer", procFile, ":", err)
-			time.Sleep(interval)
-			continue
+		sysInfo := SystemInfo{
+			TotalMemMB: int(vm.Total / 1024 / 1024),
+			FreeMemMB:  int(vm.Available / 1024 / 1024),
+			UsedMemMB:  int(vm.Used / 1024 / 1024),
+			Processes:  allProcs,
+			Containers: containers,
 		}
 
-		// Parsear JSON completo (array)
-		var entries []ProcessInfo
-		err = json.Unmarshal(fileData, &entries)
-		if err != nil {
-			fmt.Println("Error parseando JSON del módulo:", err)
-			time.Sleep(interval)
-			continue
+		out, _ := json.MarshalIndent(sysInfo, "", "  ")
+		if err := os.WriteFile("sysinfo.json", out, 0644); err != nil {
+			log.Println("Error escribiendo sysinfo.json:", err)
+		} else {
+			fmt.Println("sysinfo.json actualizado")
 		}
 
-		sysInfo.Processes = entries
-
-		saveJSON("sysinfo.json", sysInfo)
-		time.Sleep(interval)
-	}
-}
-
-func saveJSON(path string, data SysInfo) {
-	f, err := os.Create(path)
-	if err != nil {
-		fmt.Println("Error creando archivo JSON:", err)
-		return
-	}
-	defer f.Close()
-
-	encoder := json.NewEncoder(f)
-	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(data); err != nil {
-		fmt.Println("Error escribiendo JSON:", err)
+		time.Sleep(5 * time.Second)
 	}
 }

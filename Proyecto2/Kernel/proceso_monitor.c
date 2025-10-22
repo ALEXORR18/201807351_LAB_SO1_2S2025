@@ -1,66 +1,68 @@
+#include <linux/init.h>
 #include <linux/module.h>
-#include <linux/kernel.h>
 #include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/sched/signal.h>
-#include <linux/jiffies.h>
+#include <linux/uaccess.h>
+
+#define PROC_NAME_SYSINFO "sysinfo_so1_201807351"
+#define PROC_NAME_CONTINFO "continfo_so1_201807351"
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Alex Orr");
-MODULE_DESCRIPTION("Modulo kernel para exponer PID, nombre y CPU en JSON");
-MODULE_VERSION("1.0");
+MODULE_AUTHOR("Kai");
+MODULE_DESCRIPTION("Módulo kernel mínimo para Proyecto SO1");
 
-#define PROC_NAME "proc_monitor"
+static struct proc_dir_entry *sysinfo_entry;
+static struct proc_dir_entry *continfo_entry;
 
-// Función que genera el contenido JSON para /proc
-static int proc_show(struct seq_file *m, void *v) {
-    struct task_struct *task;
-    int first = 1;
+#define BUF_SIZE 1024
+static char sysinfo_buf[BUF_SIZE];
+static char continfo_buf[BUF_SIZE];
 
-    seq_puts(m, "[\n");
-    for_each_process(task) {
-        unsigned long long cpu_sec = (unsigned long long)(task->utime + task->stime) / HZ;
-
-        if (!first)
-            seq_puts(m, ",\n");
-        first = 0;
-
-        seq_printf(m,
-            "  { \"pid\": %d, \"name\": \"%s\", \"cmdline\": \"N/A\", \"cpu_sec\": %llu, \"rss\": 0 }",
-            task->pid,
-            task->comm,
-            cpu_sec
-        );
-    }
-    seq_puts(m, "\n]\n");
-    return 0;
+static ssize_t sysinfo_read(struct file *file, char __user *user_buf, size_t count, loff_t *ppos)
+{
+    size_t len = snprintf(sysinfo_buf, BUF_SIZE, "{}\n"); // JSON vacío
+    return simple_read_from_buffer(user_buf, count, ppos, sysinfo_buf, len);
 }
 
-// Abrir /proc
-static int proc_open(struct inode *inode, struct file *file) {
-    return single_open(file, proc_show, NULL);
+static ssize_t continfo_read(struct file *file, char __user *user_buf, size_t count, loff_t *ppos)
+{
+    size_t len = snprintf(continfo_buf, BUF_SIZE, "[]\n"); // JSON vacío
+    return simple_read_from_buffer(user_buf, count, ppos, continfo_buf, len);
 }
 
-// Operaciones de /proc
-static const struct proc_ops proc_fops = {
-    .proc_open    = proc_open,
-    .proc_read    = seq_read,
-    .proc_lseek   = seq_lseek,
-    .proc_release = single_release,
+static const struct proc_ops sysinfo_fops = {
+    .proc_read = sysinfo_read,
 };
 
-// Inicialización del módulo
-static int __init proc_init(void) {
-    proc_create(PROC_NAME, 0, NULL, &proc_fops);
-    printk(KERN_INFO "proc_monitor cargado\n");
+static const struct proc_ops continfo_fops = {
+    .proc_read = continfo_read,
+};
+
+static int __init proc_init(void)
+{
+    sysinfo_entry = proc_create(PROC_NAME_SYSINFO, 0444, NULL, &sysinfo_fops);
+    if (!sysinfo_entry) {
+        pr_err("Error creando /proc/%s\n", PROC_NAME_SYSINFO);
+        return -ENOMEM;
+    }
+
+    continfo_entry = proc_create(PROC_NAME_CONTINFO, 0444, NULL, &continfo_fops);
+    if (!continfo_entry) {
+        pr_err("Error creando /proc/%s\n", PROC_NAME_CONTINFO);
+        proc_remove(sysinfo_entry);
+        return -ENOMEM;
+    }
+
+    pr_info("Módulo kernel cargado: archivos /proc creados\n");
     return 0;
 }
 
-// Limpieza del módulo
-static void __exit proc_exit(void) {
-    remove_proc_entry(PROC_NAME, NULL);
-    printk(KERN_INFO "proc_monitor descargado\n");
+static void __exit proc_exit(void)
+{
+    proc_remove(sysinfo_entry);
+    proc_remove(continfo_entry);
+    pr_info("Módulo kernel descargado: archivos /proc eliminados\n");
 }
 
 module_init(proc_init);
 module_exit(proc_exit);
+

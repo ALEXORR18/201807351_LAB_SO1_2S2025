@@ -1,0 +1,3769 @@
+[
+  {
+    "PID": 1,
+    "Name": "systemd",
+    "Cmdline": "/sbin/init splash",
+    "VSZ": 24500,
+    "RSS": 14300,
+    "Memory_Usage": 0.043964027955956775,
+    "CPU_Usage": 0.26952051211739175
+  },
+  {
+    "PID": 2,
+    "Name": "kthreadd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0009890657928212643
+  },
+  {
+    "PID": 3,
+    "Name": "pool_workqueue_release",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 4,
+    "Name": "kworker/R-rcu_g",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 5,
+    "Name": "kworker/R-rcu_p",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 6,
+    "Name": "kworker/R-slub_",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 7,
+    "Name": "kworker/R-netns",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 9,
+    "Name": "kworker/0:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 10,
+    "Name": "kworker/0:1-ipv6_addrconf",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.00840705249881279
+  },
+  {
+    "PID": 12,
+    "Name": "kworker/R-mm_pe",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 13,
+    "Name": "rcu_tasks_kthread",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 14,
+    "Name": "rcu_tasks_rude_kthread",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 15,
+    "Name": "rcu_tasks_trace_kthread",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 16,
+    "Name": "ksoftirqd/0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0024726611980598777
+  },
+  {
+    "PID": 17,
+    "Name": "rcu_preempt",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.13747995018931292
+  },
+  {
+    "PID": 18,
+    "Name": "migration/0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.008901578694427334
+  },
+  {
+    "PID": 19,
+    "Name": "idle_inject/0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 20,
+    "Name": "cpuhp/0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 21,
+    "Name": "cpuhp/2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 22,
+    "Name": "idle_inject/2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 23,
+    "Name": "migration/2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.01186876604308779
+  },
+  {
+    "PID": 24,
+    "Name": "ksoftirqd/2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004945318736396835
+  },
+  {
+    "PID": 26,
+    "Name": "kworker/2:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 27,
+    "Name": "cpuhp/4",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 28,
+    "Name": "idle_inject/4",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 29,
+    "Name": "migration/4",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0098906336967173
+  },
+  {
+    "PID": 30,
+    "Name": "ksoftirqd/4",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.00247265819887576
+  },
+  {
+    "PID": 32,
+    "Name": "kworker/4:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 33,
+    "Name": "cpuhp/6",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 34,
+    "Name": "idle_inject/6",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 35,
+    "Name": "migration/6",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.008407034657123816
+  },
+  {
+    "PID": 36,
+    "Name": "ksoftirqd/6",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004945314056075858
+  },
+  {
+    "PID": 37,
+    "Name": "kworker/6:0-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.013846877871386725
+  },
+  {
+    "PID": 38,
+    "Name": "kworker/6:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 39,
+    "Name": "cpuhp/8",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 40,
+    "Name": "idle_inject/8",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 41,
+    "Name": "migration/8",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.013846871562117056
+  },
+  {
+    "PID": 42,
+    "Name": "ksoftirqd/8",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004945309779531287
+  },
+  {
+    "PID": 44,
+    "Name": "kworker/8:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 45,
+    "Name": "cpuhp/10",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 46,
+    "Name": "idle_inject/10",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 47,
+    "Name": "migration/10",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.011374207677103624
+  },
+  {
+    "PID": 48,
+    "Name": "ksoftirqd/10",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004945307239004738
+  },
+  {
+    "PID": 50,
+    "Name": "kworker/10:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 51,
+    "Name": "cpuhp/12",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 52,
+    "Name": "idle_inject/12",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 53,
+    "Name": "migration/12",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.019781221335942872
+  },
+  {
+    "PID": 54,
+    "Name": "ksoftirqd/12",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.00049453048849312
+  },
+  {
+    "PID": 56,
+    "Name": "kworker/12:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 57,
+    "Name": "cpuhp/13",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 58,
+    "Name": "idle_inject/13",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 59,
+    "Name": "migration/13",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.013352318123968601
+  },
+  {
+    "PID": 60,
+    "Name": "ksoftirqd/13",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004945302554354798
+  },
+  {
+    "PID": 62,
+    "Name": "kworker/13:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 63,
+    "Name": "cpuhp/14",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 64,
+    "Name": "idle_inject/14",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 65,
+    "Name": "migration/14",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.010879661420304
+  },
+  {
+    "PID": 66,
+    "Name": "ksoftirqd/14",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 68,
+    "Name": "kworker/14:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 69,
+    "Name": "cpuhp/15",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 70,
+    "Name": "idle_inject/15",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 71,
+    "Name": "migration/15",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.00939606666897648
+  },
+  {
+    "PID": 72,
+    "Name": "ksoftirqd/15",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 74,
+    "Name": "kworker/15:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 75,
+    "Name": "cpuhp/16",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 76,
+    "Name": "idle_inject/16",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 77,
+    "Name": "migration/16",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.016814006012209545
+  },
+  {
+    "PID": 78,
+    "Name": "ksoftirqd/16",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 80,
+    "Name": "kworker/16:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 81,
+    "Name": "cpuhp/17",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 82,
+    "Name": "idle_inject/17",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 83,
+    "Name": "migration/17",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.013846821799563168
+  },
+  {
+    "PID": 84,
+    "Name": "ksoftirqd/17",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 86,
+    "Name": "kworker/17:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 87,
+    "Name": "cpuhp/18",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 88,
+    "Name": "idle_inject/18",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 89,
+    "Name": "migration/18",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.011374169551688604
+  },
+  {
+    "PID": 90,
+    "Name": "ksoftirqd/18",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 92,
+    "Name": "kworker/18:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 93,
+    "Name": "cpuhp/19",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 94,
+    "Name": "idle_inject/19",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 95,
+    "Name": "migration/19",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.00989057748466354
+  },
+  {
+    "PID": 96,
+    "Name": "ksoftirqd/19",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 97,
+    "Name": "kworker/19:0-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.007417931538008576
+  },
+  {
+    "PID": 98,
+    "Name": "kworker/19:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 99,
+    "Name": "cpuhp/1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 100,
+    "Name": "idle_inject/1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 101,
+    "Name": "migration/1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006923400020555231
+  },
+  {
+    "PID": 102,
+    "Name": "ksoftirqd/1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0019781141092062495
+  },
+  {
+    "PID": 103,
+    "Name": "kworker/1:0-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.004450756284346007
+  },
+  {
+    "PID": 104,
+    "Name": "kworker/1:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 105,
+    "Name": "cpuhp/3",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 106,
+    "Name": "idle_inject/3",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 107,
+    "Name": "migration/3",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006428862509039729
+  },
+  {
+    "PID": 108,
+    "Name": "ksoftirqd/3",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 109,
+    "Name": "kworker/3:0-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.004945275815158192
+  },
+  {
+    "PID": 110,
+    "Name": "kworker/3:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 111,
+    "Name": "cpuhp/5",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 112,
+    "Name": "idle_inject/5",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 113,
+    "Name": "migration/5",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006428855663800007
+  },
+  {
+    "PID": 114,
+    "Name": "ksoftirqd/5",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 115,
+    "Name": "kworker/5:0-events_freezable",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.005934327143435366
+  },
+  {
+    "PID": 116,
+    "Name": "kworker/5:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 117,
+    "Name": "cpuhp/7",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 118,
+    "Name": "idle_inject/7",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 119,
+    "Name": "migration/7",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0059343248734855325
+  },
+  {
+    "PID": 120,
+    "Name": "ksoftirqd/7",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 121,
+    "Name": "kworker/7:0-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0069233776828951646
+  },
+  {
+    "PID": 122,
+    "Name": "kworker/7:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 123,
+    "Name": "cpuhp/9",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 124,
+    "Name": "idle_inject/9",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 125,
+    "Name": "migration/9",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006428848252559231
+  },
+  {
+    "PID": 126,
+    "Name": "ksoftirqd/9",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 128,
+    "Name": "kworker/9:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 129,
+    "Name": "cpuhp/11",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 130,
+    "Name": "idle_inject/11",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 131,
+    "Name": "migration/11",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.005934318665695614
+  },
+  {
+    "PID": 132,
+    "Name": "ksoftirqd/11",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 134,
+    "Name": "kworker/11:0H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 135,
+    "Name": "kdevtmpfs",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 136,
+    "Name": "kworker/R-inet_",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 138,
+    "Name": "kauditd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 142,
+    "Name": "khungtaskd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 143,
+    "Name": "oom_reaper",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 145,
+    "Name": "kworker/R-write",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 146,
+    "Name": "kcompactd0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.005934313574183028
+  },
+  {
+    "PID": 147,
+    "Name": "ksmd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 148,
+    "Name": "khugepaged",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 149,
+    "Name": "kworker/R-kinte",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 150,
+    "Name": "kworker/R-kbloc",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 151,
+    "Name": "kworker/R-blkcg",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 152,
+    "Name": "irq/9-acpi",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.1434124944178368
+  },
+  {
+    "PID": 155,
+    "Name": "kworker/18:1-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0034616805424590724
+  },
+  {
+    "PID": 156,
+    "Name": "kworker/R-tpm_d",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 157,
+    "Name": "kworker/R-ata_s",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 158,
+    "Name": "kworker/R-md",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 159,
+    "Name": "kworker/R-md_bi",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 160,
+    "Name": "kworker/R-edac-",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 161,
+    "Name": "kworker/R-devfr",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 162,
+    "Name": "watchdogd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 163,
+    "Name": "kworker/12:1H-kblockd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.004452930666197717
+  },
+  {
+    "PID": 165,
+    "Name": "kswapd0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 166,
+    "Name": "ecryptfs-kthread",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 168,
+    "Name": "kworker/R-kthro",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 169,
+    "Name": "irq/123-pciehp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 170,
+    "Name": "irq/124-pciehp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 171,
+    "Name": "kworker/R-acpi_",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 173,
+    "Name": "hwrng",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.002473848224895554
+  },
+  {
+    "PID": 174,
+    "Name": "kworker/R-hfi-u",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 177,
+    "Name": "kworker/R-mld",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 178,
+    "Name": "kworker/8:1H-kblockd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.003958155908344841
+  },
+  {
+    "PID": 179,
+    "Name": "kworker/R-ipv6_",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 186,
+    "Name": "kworker/R-kstrp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 187,
+    "Name": "kworker/4:1-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006926770685869735
+  },
+  {
+    "PID": 208,
+    "Name": "kworker/R-charg",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 235,
+    "Name": "kworker/4:1H-kblockd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.015337846238308058
+  },
+  {
+    "PID": 261,
+    "Name": "kworker/6:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006431999288253388
+  },
+  {
+    "PID": 277,
+    "Name": "kworker/2:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.002968614743833955
+  },
+  {
+    "PID": 295,
+    "Name": "kworker/16:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.004947690731400959
+  },
+  {
+    "PID": 296,
+    "Name": "kworker/10:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.003958152179158234
+  },
+  {
+    "PID": 297,
+    "Name": "kworker/5:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0009895379446702946
+  },
+  {
+    "PID": 299,
+    "Name": "kworker/9:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 301,
+    "Name": "kworker/3:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004947688646360437
+  },
+  {
+    "PID": 302,
+    "Name": "kworker/17:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0049476881506726016
+  },
+  {
+    "PID": 303,
+    "Name": "kworker/18:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0029686125900709906
+  },
+  {
+    "PID": 304,
+    "Name": "kworker/1:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0009895374297958148
+  },
+  {
+    "PID": 306,
+    "Name": "kworker/0:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0034633806505457486
+  },
+  {
+    "PID": 307,
+    "Name": "kworker/13:1H-kblockd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.00346338026425692
+  },
+  {
+    "PID": 308,
+    "Name": "kworker/14:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0019790742347498293
+  },
+  {
+    "PID": 309,
+    "Name": "kworker/19:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0014843055243121686
+  },
+  {
+    "PID": 310,
+    "Name": "kworker/7:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.000989536913294468
+  },
+  {
+    "PID": 317,
+    "Name": "kworker/11:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 353,
+    "Name": "kworker/7:2-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006926756955108373
+  },
+  {
+    "PID": 355,
+    "Name": "irq/178-VEN_06CB:00",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.3314947632199084
+  },
+  {
+    "PID": 360,
+    "Name": "kworker/15:1H-events_highpri",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0019790730120458487
+  },
+  {
+    "PID": 362,
+    "Name": "kworker/R-nvme-",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 363,
+    "Name": "kworker/R-nvme-",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 364,
+    "Name": "kworker/R-nvme-",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 365,
+    "Name": "kworker/R-nvme-",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 366,
+    "Name": "spi0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 370,
+    "Name": "kworker/R-uas",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 371,
+    "Name": "scsi_eh_0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 372,
+    "Name": "kworker/R-scsi_",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 373,
+    "Name": "kworker/R-USBC0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 411,
+    "Name": "jbd2/sda5-8",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.018810482080888213
+  },
+  {
+    "PID": 412,
+    "Name": "kworker/R-ext4-",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 454,
+    "Name": "kworker/R-USBC0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 459,
+    "Name": "kworker/16:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.011886184623183162
+  },
+  {
+    "PID": 466,
+    "Name": "systemd-journald",
+    "Cmdline": "/usr/lib/systemd/systemd-journald",
+    "VSZ": 67376,
+    "RSS": 17036,
+    "Memory_Usage": 0.052375607011026545,
+    "CPU_Usage": 0.03763958029026509
+  },
+  {
+    "PID": 524,
+    "Name": "kworker/13:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.009414556727505675
+  },
+  {
+    "PID": 530,
+    "Name": "systemd-udevd",
+    "Cmdline": "/usr/lib/systemd/systemd-udevd",
+    "VSZ": 30620,
+    "RSS": 7764,
+    "Memory_Usage": 0.023869700213290098,
+    "CPU_Usage": 0.044099761465758364
+  },
+  {
+    "PID": 532,
+    "Name": "kworker/11:2-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0034685201966109594
+  },
+  {
+    "PID": 571,
+    "Name": "psimon",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 634,
+    "Name": "kworker/14:2-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.007432541832596208
+  },
+  {
+    "PID": 661,
+    "Name": "kworker/R-cfg80",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 673,
+    "Name": "kworker/R-USBC0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 733,
+    "Name": "kworker/R-crypt",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 740,
+    "Name": "irq/201-iwlwifi:default_queue",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006943914221252448
+  },
+  {
+    "PID": 741,
+    "Name": "irq/202-iwlwifi:queue_1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 742,
+    "Name": "irq/203-iwlwifi:queue_2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 743,
+    "Name": "irq/204-iwlwifi:queue_3",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004959935181257626
+  },
+  {
+    "PID": 744,
+    "Name": "irq/205-iwlwifi:queue_4",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 746,
+    "Name": "irq/206-iwlwifi:queue_5",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 748,
+    "Name": "irq/207-iwlwifi:queue_6",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 749,
+    "Name": "irq/208-iwlwifi:queue_7",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 750,
+    "Name": "irq/209-iwlwifi:queue_8",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 751,
+    "Name": "irq/210-iwlwifi:queue_9",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 752,
+    "Name": "irq/211-iwlwifi:queue_10",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 753,
+    "Name": "irq/212-iwlwifi:queue_11",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 754,
+    "Name": "irq/213-iwlwifi:queue_12",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 760,
+    "Name": "irq/214-iwlwifi:queue_13",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 761,
+    "Name": "irq/215-iwlwifi:queue_14",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0004959929350227568
+  },
+  {
+    "PID": 762,
+    "Name": "irq/216-iwlwifi:exception",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 808,
+    "Name": "irq/16-processor_thermal_device_pci",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 860,
+    "Name": "irq/199-cs35l41 IRQ1 Controller",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 861,
+    "Name": "irq/199-cs35l41 IRQ1 Controller",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 987,
+    "Name": "systemd-oomd",
+    "Cmdline": "/usr/lib/systemd/systemd-oomd",
+    "VSZ": 17560,
+    "RSS": 7040,
+    "Memory_Usage": 0.02164382914754795,
+    "CPU_Usage": 0.04513533287258339
+  },
+  {
+    "PID": 988,
+    "Name": "systemd-resolved",
+    "Cmdline": "/usr/lib/systemd/systemd-resolved",
+    "VSZ": 21716,
+    "RSS": 12000,
+    "Memory_Usage": 0.03689289059241128,
+    "CPU_Usage": 0.0386874237100473
+  },
+  {
+    "PID": 989,
+    "Name": "systemd-timesyncd",
+    "Cmdline": "/usr/lib/systemd/systemd-timesyncd",
+    "VSZ": 91396,
+    "RSS": 7680,
+    "Memory_Usage": 0.02361144997914322,
+    "CPU_Usage": 0.014879776696013517
+  },
+  {
+    "PID": 994,
+    "Name": "kworker/9:2-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.002479962520181444
+  },
+  {
+    "PID": 995,
+    "Name": "kworker/R-ttm",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1003,
+    "Name": "card1-crtc0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1004,
+    "Name": "card1-crtc1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1005,
+    "Name": "card1-crtc2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1006,
+    "Name": "card1-crtc3",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1080,
+    "Name": "accounts-daemon",
+    "Cmdline": "/usr/libexec/accounts-daemon",
+    "VSZ": 316988,
+    "RSS": 7972,
+    "Memory_Usage": 0.024509176983558558,
+    "CPU_Usage": 0.010421005108250319
+  },
+  {
+    "PID": 1082,
+    "Name": "avahi-daemon",
+    "Cmdline": "avahi-daemon: running [alexander-XPS-15-9530.local]",
+    "VSZ": 8612,
+    "RSS": 3520,
+    "Memory_Usage": 0.010821914573773975,
+    "CPU_Usage": 0.010421004044839345
+  },
+  {
+    "PID": 1083,
+    "Name": "bluetoothd",
+    "Cmdline": "/usr/libexec/bluetooth/bluetoothd",
+    "VSZ": 13548,
+    "RSS": 5600,
+    "Memory_Usage": 0.017216682276458596,
+    "CPU_Usage": 0.0029774294389077545
+  },
+  {
+    "PID": 1084,
+    "Name": "cron",
+    "Cmdline": "/usr/sbin/cron -f -P",
+    "VSZ": 12040,
+    "RSS": 2720,
+    "Memory_Usage": 0.008362388534279891,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1085,
+    "Name": "dbus-daemon",
+    "Cmdline": "@dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+    "VSZ": 12364,
+    "RSS": 6080,
+    "Memory_Usage": 0.018692397900155047,
+    "CPU_Usage": 0.14490153809702247
+  },
+  {
+    "PID": 1090,
+    "Name": "gnome-remote-desktop-daemon",
+    "Cmdline": "/usr/libexec/gnome-remote-desktop-daemon --system",
+    "VSZ": 365476,
+    "RSS": 15596,
+    "Memory_Usage": 0.04794846013993719,
+    "CPU_Usage": 0.002481190434047879
+  },
+  {
+    "PID": 1093,
+    "Name": "iio-sensor-proxy",
+    "Cmdline": "/usr/libexec/iio-sensor-proxy",
+    "VSZ": 316668,
+    "RSS": 7360,
+    "Memory_Usage": 0.022627639563345583,
+    "CPU_Usage": 0.020841997299029986
+  },
+  {
+    "PID": 1115,
+    "Name": "polkitd",
+    "Cmdline": "/usr/lib/polkit-1/polkitd --no-debug",
+    "VSZ": 394552,
+    "RSS": 11744,
+    "Memory_Usage": 0.036105842259773174,
+    "CPU_Usage": 0.0570673680812762
+  },
+  {
+    "PID": 1116,
+    "Name": "power-profiles-daemon",
+    "Cmdline": "/usr/libexec/power-profiles-daemon",
+    "VSZ": 316412,
+    "RSS": 7472,
+    "Memory_Usage": 0.022971973208874757,
+    "CPU_Usage": 0.002977427567855686
+  },
+  {
+    "PID": 1121,
+    "Name": "snapd",
+    "Cmdline": "/usr/lib/snapd/snapd",
+    "VSZ": 3032676,
+    "RSS": 43456,
+    "Memory_Usage": 0.1336014544653187,
+    "CPU_Usage": 0.20048010257026416
+  },
+  {
+    "PID": 1122,
+    "Name": "switcheroo-control",
+    "Cmdline": "/usr/libexec/switcheroo-control",
+    "VSZ": 312664,
+    "RSS": 6240,
+    "Memory_Usage": 0.019184303108053868,
+    "CPU_Usage": 0.0034736647216288075
+  },
+  {
+    "PID": 1126,
+    "Name": "systemd-logind",
+    "Cmdline": "/usr/lib/systemd/systemd-logind",
+    "VSZ": 18216,
+    "RSS": 8352,
+    "Memory_Usage": 0.025677451852318248,
+    "CPU_Usage": 0.039202783875648066
+  },
+  {
+    "PID": 1127,
+    "Name": "systemd-machined",
+    "Cmdline": "/usr/lib/systemd/systemd-machined",
+    "VSZ": 17544,
+    "RSS": 7520,
+    "Memory_Usage": 0.023119544771244404,
+    "CPU_Usage": 0.013894656032169815
+  },
+  {
+    "PID": 1129,
+    "Name": "udisksd",
+    "Cmdline": "/usr/libexec/udisks2/udisksd",
+    "VSZ": 470532,
+    "RSS": 13720,
+    "Memory_Usage": 0.042180871577323566,
+    "CPU_Usage": 0.02630059641007566
+  },
+  {
+    "PID": 1130,
+    "Name": "virtlockd",
+    "Cmdline": "/usr/sbin/virtlockd",
+    "VSZ": 76492,
+    "RSS": 14080,
+    "Memory_Usage": 0.0432876582950959,
+    "CPU_Usage": 0.000992475243321421
+  },
+  {
+    "PID": 1131,
+    "Name": "virtlogd",
+    "Cmdline": "/usr/sbin/virtlogd",
+    "VSZ": 76496,
+    "RSS": 14240,
+    "Memory_Usage": 0.043779563502994716,
+    "CPU_Usage": 0.0024811878649366385
+  },
+  {
+    "PID": 1140,
+    "Name": "avahi-daemon",
+    "Cmdline": "avahi-daemon: chroot helper",
+    "VSZ": 8424,
+    "RSS": 1280,
+    "Memory_Usage": 0.003935241663190536,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1151,
+    "Name": "rsyslogd",
+    "Cmdline": "/usr/sbin/rsyslogd -n -iNONE",
+    "VSZ": 222508,
+    "RSS": 5760,
+    "Memory_Usage": 0.017708587484357413,
+    "CPU_Usage": 0.012405936938910714
+  },
+  {
+    "PID": 1250,
+    "Name": "kworker/R-ttm",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1251,
+    "Name": "irq/233-AudioDSP",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.009433191316216057
+  },
+  {
+    "PID": 1284,
+    "Name": "NetworkManager",
+    "Cmdline": "/usr/sbin/NetworkManager --no-daemon",
+    "VSZ": 340228,
+    "RSS": 18668,
+    "Memory_Usage": 0.057393040131594485,
+    "CPU_Usage": 0.04468353334522313
+  },
+  {
+    "PID": 1287,
+    "Name": "upowerd",
+    "Cmdline": "/usr/libexec/upowerd",
+    "VSZ": 320232,
+    "RSS": 8960,
+    "Memory_Usage": 0.027546691642333754,
+    "CPU_Usage": 0.0521307839719126
+  },
+  {
+    "PID": 1288,
+    "Name": "wpa_supplicant",
+    "Cmdline": "/usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev",
+    "VSZ": 18276,
+    "RSS": 10720,
+    "Memory_Usage": 0.03295764892922074,
+    "CPU_Usage": 0.007447254138352369
+  },
+  {
+    "PID": 1313,
+    "Name": "ModemManager",
+    "Cmdline": "/usr/sbin/ModemManager",
+    "VSZ": 318424,
+    "RSS": 11452,
+    "Memory_Usage": 0.03520811525535783,
+    "CPU_Usage": 0.008936704123241847
+  },
+  {
+    "PID": 1317,
+    "Name": "boltd",
+    "Cmdline": "/usr/libexec/boltd",
+    "VSZ": 316408,
+    "RSS": 7440,
+    "Memory_Usage": 0.022873592167294995,
+    "CPU_Usage": 0.009929670307270228
+  },
+  {
+    "PID": 1337,
+    "Name": "irq/234-mei_gsc",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1339,
+    "Name": "irq/235-mei_gsc",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1739,
+    "Name": "cupsd",
+    "Cmdline": "/usr/sbin/cupsd -l",
+    "VSZ": 40544,
+    "RSS": 10720,
+    "Memory_Usage": 0.03295764892922074,
+    "CPU_Usage": 0.001987905992033405
+  },
+  {
+    "PID": 1743,
+    "Name": "canonical-livepatchd",
+    "Cmdline": "/snap/canonical-livepatch/359/canonical-livepatchd",
+    "VSZ": 1236428,
+    "RSS": 11328,
+    "Memory_Usage": 0.03482688871923625,
+    "CPU_Usage": 0.054170422204061264
+  },
+  {
+    "PID": 1751,
+    "Name": "/usr/bin/python3",
+    "Cmdline": "/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal",
+    "VSZ": 120648,
+    "RSS": 24000,
+    "Memory_Usage": 0.07378578118482255,
+    "CPU_Usage": 0.0064606907124535205
+  },
+  {
+    "PID": 1755,
+    "Name": "containerd",
+    "Cmdline": "/usr/bin/containerd",
+    "VSZ": 2615144,
+    "RSS": 49012,
+    "Memory_Usage": 0.15068286280960513,
+    "CPU_Usage": 0.11728635724122831
+  },
+  {
+    "PID": 1813,
+    "Name": "gdm3",
+    "Cmdline": "/usr/sbin/gdm3",
+    "VSZ": 317740,
+    "RSS": 8800,
+    "Memory_Usage": 0.02705478643443494,
+    "CPU_Usage": 0.003478831789647643
+  },
+  {
+    "PID": 1936,
+    "Name": "dnsmasq",
+    "Cmdline": "/usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper",
+    "VSZ": 11512,
+    "RSS": 2408,
+    "Memory_Usage": 0.007403173378877197,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1937,
+    "Name": "dnsmasq",
+    "Cmdline": "/usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper",
+    "VSZ": 11484,
+    "RSS": 1144,
+    "Memory_Usage": 0.003517122236476542,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 1982,
+    "Name": "rtkit-daemon",
+    "Cmdline": "/usr/libexec/rtkit-daemon",
+    "VSZ": 22940,
+    "RSS": 3200,
+    "Memory_Usage": 0.00983810415797634,
+    "CPU_Usage": 0.0044727804241765185
+  },
+  {
+    "PID": 2124,
+    "Name": "krfcommd",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 2243,
+    "Name": "colord",
+    "Cmdline": "/usr/libexec/colord",
+    "VSZ": 323104,
+    "RSS": 14412,
+    "Memory_Usage": 0.04430836160148595,
+    "CPU_Usage": 0.008958913486744904
+  },
+  {
+    "PID": 2264,
+    "Name": "thermald",
+    "Cmdline": "/usr/sbin/thermald --systemd --dbus-enable --adaptive",
+    "VSZ": 427660,
+    "RSS": 10880,
+    "Memory_Usage": 0.033449554137119565,
+    "CPU_Usage": 0.012442932274506244
+  },
+  {
+    "PID": 2546,
+    "Name": "cups-browsed",
+    "Cmdline": "/usr/sbin/cups-browsed",
+    "VSZ": 268472,
+    "RSS": 19200,
+    "Memory_Usage": 0.059028624947858044,
+    "CPU_Usage": 0.005975580171421035
+  },
+  {
+    "PID": 2551,
+    "Name": "dockerd",
+    "Cmdline": "/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock",
+    "VSZ": 6288476,
+    "RSS": 94180,
+    "Memory_Usage": 0.2895477029994412,
+    "CPU_Usage": 0.176279569594057
+  },
+  {
+    "PID": 2552,
+    "Name": "grafana",
+    "Cmdline": "/usr/share/grafana/bin/grafana server --config=/etc/grafana/grafana.ini --pidfile=/run/grafana/grafana-server.pid --packaging=deb cfg:default.paths.logs=/var/log/grafana cfg:default.paths.data=/var/lib/grafana cfg:default.paths.plugins=/var/lib/grafana/plugins cfg:default.paths.provisioning=/etc/grafana/provisioning",
+    "VSZ": 1888636,
+    "RSS": 247572,
+    "Memory_Usage": 0.7611372258120371,
+    "CPU_Usage": 0.9162551590789892
+  },
+  {
+    "PID": 2556,
+    "Name": "kerneloops",
+    "Cmdline": "/usr/sbin/kerneloops --test",
+    "VSZ": 12744,
+    "RSS": 2088,
+    "Memory_Usage": 0.006419362963079562,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 2559,
+    "Name": "kerneloops",
+    "Cmdline": "/usr/sbin/kerneloops",
+    "VSZ": 12744,
+    "RSS": 2088,
+    "Memory_Usage": 0.006419362963079562,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3014,
+    "Name": "docker-proxy",
+    "Cmdline": "/usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 27017 -container-ip 172.19.0.2 -container-port 27017",
+    "VSZ": 1671300,
+    "RSS": 4160,
+    "Memory_Usage": 0.012789535405369245,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3015,
+    "Name": "docker-proxy",
+    "Cmdline": "/usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3306 -container-ip 172.19.0.3 -container-port 3306",
+    "VSZ": 1745288,
+    "RSS": 4320,
+    "Memory_Usage": 0.01328144061326806,
+    "CPU_Usage": 0.0004984608650331276
+  },
+  {
+    "PID": 3027,
+    "Name": "docker-proxy",
+    "Cmdline": "/usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3306 -container-ip 172.19.0.3 -container-port 3306",
+    "VSZ": 1745032,
+    "RSS": 4160,
+    "Memory_Usage": 0.012789535405369245,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3029,
+    "Name": "docker-proxy",
+    "Cmdline": "/usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 27017 -container-ip 172.19.0.2 -container-port 27017",
+    "VSZ": 1671300,
+    "RSS": 4000,
+    "Memory_Usage": 0.012297630197470426,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3076,
+    "Name": "containerd-shim-runc-v2",
+    "Cmdline": "/usr/bin/containerd-shim-runc-v2 -namespace moby -id 3b15138a9ea529faf07e444a9348070af78d31751e23a8c4c280bafad192c86c -address /run/containerd/containerd.sock",
+    "VSZ": 1237976,
+    "RSS": 14052,
+    "Memory_Usage": 0.04320157488371361,
+    "CPU_Usage": 0.03688609220149551
+  },
+  {
+    "PID": 3077,
+    "Name": "containerd-shim-runc-v2",
+    "Cmdline": "/usr/bin/containerd-shim-runc-v2 -namespace moby -id dbc77c194a556c125bd0efc54848c0a482289a51af4a456b1d73b0c21bccf1a3 -address /run/containerd/containerd.sock",
+    "VSZ": 1237912,
+    "RSS": 12628,
+    "Memory_Usage": 0.038823618533414136,
+    "CPU_Usage": 0.016947662071403344
+  },
+  {
+    "PID": 3225,
+    "Name": "gdm-session-worker [pam/gdm-fingerprint]",
+    "Cmdline": "gdm-session-worker [pam/gdm-fingerprint]",
+    "VSZ": 392576,
+    "RSS": 10560,
+    "Memory_Usage": 0.032465743721321924,
+    "CPU_Usage": 0.0029922544697723666
+  },
+  {
+    "PID": 3317,
+    "Name": "systemd",
+    "Cmdline": "/usr/lib/systemd/systemd --user",
+    "VSZ": 21804,
+    "RSS": 13712,
+    "Memory_Usage": 0.04215627631692862,
+    "CPU_Usage": 0.1362834969581562
+  },
+  {
+    "PID": 3324,
+    "Name": "(sd-pam)",
+    "Cmdline": "(sd-pam)",
+    "VSZ": 21564,
+    "RSS": 3576,
+    "Memory_Usage": 0.010994081396538562,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3330,
+    "Name": "gpx_sqlite-datasource_linux_amd64",
+    "Cmdline": "/var/lib/grafana/plugins/frser-sqlite-datasource/gpx_sqlite-datasource_linux_amd64",
+    "VSZ": 1254788,
+    "RSS": 22720,
+    "Memory_Usage": 0.06985053952163203,
+    "CPU_Usage": 0.0004992068446528621
+  },
+  {
+    "PID": 3343,
+    "Name": "kworker/R-dio/o",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3344,
+    "Name": "pipewire",
+    "Cmdline": "/usr/bin/pipewire",
+    "VSZ": 121124,
+    "RSS": 16096,
+    "Memory_Usage": 0.04948566391462099,
+    "CPU_Usage": 0.04842305336010813
+  },
+  {
+    "PID": 3346,
+    "Name": "pipewire",
+    "Cmdline": "/usr/bin/pipewire -c filter-chain.conf",
+    "VSZ": 100352,
+    "RSS": 5760,
+    "Memory_Usage": 0.017708587484357413,
+    "CPU_Usage": 0.0009984133748049944
+  },
+  {
+    "PID": 3349,
+    "Name": "wireplumber",
+    "Cmdline": "/usr/bin/wireplumber",
+    "VSZ": 409112,
+    "RSS": 16640,
+    "Memory_Usage": 0.05115814162147698,
+    "CPU_Usage": 0.022963505398469013
+  },
+  {
+    "PID": 3351,
+    "Name": "pipewire-pulse",
+    "Cmdline": "/usr/bin/pipewire-pulse",
+    "VSZ": 119684,
+    "RSS": 13400,
+    "Memory_Usage": 0.04119706116152593,
+    "CPU_Usage": 0.009984131783020734
+  },
+  {
+    "PID": 3352,
+    "Name": "gnome-keyring-daemon",
+    "Cmdline": "/usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring",
+    "VSZ": 467060,
+    "RSS": 9600,
+    "Memory_Usage": 0.029514312473929022,
+    "CPU_Usage": 0.00998413060290009
+  },
+  {
+    "PID": 3366,
+    "Name": "dbus-daemon",
+    "Cmdline": "/usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+    "VSZ": 10948,
+    "RSS": 5920,
+    "Memory_Usage": 0.018200492692256234,
+    "CPU_Usage": 0.05491271293791847
+  },
+  {
+    "PID": 3427,
+    "Name": "xdg-document-portal",
+    "Cmdline": "/usr/libexec/xdg-document-portal",
+    "VSZ": 613212,
+    "RSS": 7200,
+    "Memory_Usage": 0.02213573435544677,
+    "CPU_Usage": 0.004992064251042087
+  },
+  {
+    "PID": 3431,
+    "Name": "xdg-permission-store",
+    "Cmdline": "/usr/libexec/xdg-permission-store",
+    "VSZ": 312232,
+    "RSS": 6080,
+    "Memory_Usage": 0.018692397900155047,
+    "CPU_Usage": 0.0009984127373206249
+  },
+  {
+    "PID": 3438,
+    "Name": "fusermount3",
+    "Cmdline": "fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc",
+    "VSZ": 2704,
+    "RSS": 1920,
+    "Memory_Usage": 0.005902862494785805,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3474,
+    "Name": "gdm-wayland-session",
+    "Cmdline": "/usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu",
+    "VSZ": 238608,
+    "RSS": 6080,
+    "Memory_Usage": 0.018692397900155047,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3479,
+    "Name": "gnome-session-binary",
+    "Cmdline": "/usr/libexec/gnome-session-binary --session=ubuntu",
+    "VSZ": 301172,
+    "RSS": 16480,
+    "Memory_Usage": 0.05066623641357816,
+    "CPU_Usage": 0.001997822140440382
+  },
+  {
+    "PID": 3593,
+    "Name": "gcr-ssh-agent",
+    "Cmdline": "/usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr",
+    "VSZ": 162652,
+    "RSS": 6720,
+    "Memory_Usage": 0.02066001873175032,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3594,
+    "Name": "gnome-session-ctl",
+    "Cmdline": "/usr/libexec/gnome-session-ctl --monitor",
+    "VSZ": 94164,
+    "RSS": 5440,
+    "Memory_Usage": 0.016724777068559783,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 3606,
+    "Name": "gvfsd",
+    "Cmdline": "/usr/libexec/gvfsd",
+    "VSZ": 317232,
+    "RSS": 8000,
+    "Memory_Usage": 0.02459526039494085,
+    "CPU_Usage": 0.0029967322794881433
+  },
+  {
+    "PID": 3616,
+    "Name": "gvfsd-fuse",
+    "Cmdline": "/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f",
+    "VSZ": 462628,
+    "RSS": 7040,
+    "Memory_Usage": 0.02164382914754795,
+    "CPU_Usage": 0.0004994553318393478
+  },
+  {
+    "PID": 3619,
+    "Name": "gnome-session-binary",
+    "Cmdline": "/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu",
+    "VSZ": 597736,
+    "RSS": 18080,
+    "Memory_Usage": 0.055585288492566325,
+    "CPU_Usage": 0.011986926590490143
+  },
+  {
+    "PID": 3658,
+    "Name": "at-spi-bus-launcher",
+    "Cmdline": "/usr/libexec/at-spi-bus-launcher --launch-immediately",
+    "VSZ": 383012,
+    "RSS": 7200,
+    "Memory_Usage": 0.02213573435544677,
+    "CPU_Usage": 0.0009989104353021199
+  },
+  {
+    "PID": 3670,
+    "Name": "gnome-shell",
+    "Cmdline": "/usr/bin/gnome-shell",
+    "VSZ": 4992612,
+    "RSS": 323836,
+    "Memory_Usage": 0.9956038431570082,
+    "CPU_Usage": 2.6880660334947506
+  },
+  {
+    "PID": 3672,
+    "Name": "dbus-daemon",
+    "Cmdline": "/usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus",
+    "VSZ": 9424,
+    "RSS": 4320,
+    "Memory_Usage": 0.01328144061326806,
+    "CPU_Usage": 0.0009989095923497416
+  },
+  {
+    "PID": 3797,
+    "Name": "at-spi2-registryd",
+    "Cmdline": "/usr/libexec/at-spi2-registryd --use-gnome-session",
+    "VSZ": 236068,
+    "RSS": 7360,
+    "Memory_Usage": 0.022627639563345583,
+    "CPU_Usage": 0.0004997043133429178
+  },
+  {
+    "PID": 3845,
+    "Name": "gnome-shell-calendar-server",
+    "Cmdline": "/usr/libexec/gnome-shell-calendar-server",
+    "VSZ": 654848,
+    "RSS": 16640,
+    "Memory_Usage": 0.05115814162147698,
+    "CPU_Usage": 0.0039976339892380305
+  },
+  {
+    "PID": 3861,
+    "Name": "evolution-source-registry",
+    "Cmdline": "/usr/libexec/evolution-source-registry",
+    "VSZ": 595728,
+    "RSS": 40800,
+    "Memory_Usage": 0.12543582801419836,
+    "CPU_Usage": 0.009494379567527564
+  },
+  {
+    "PID": 3864,
+    "Name": "gjs",
+    "Cmdline": "/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications",
+    "VSZ": 2804872,
+    "RSS": 26220,
+    "Memory_Usage": 0.08061096594441865,
+    "CPU_Usage": 0.009494376942884403
+  },
+  {
+    "PID": 3866,
+    "Name": "ibus-daemon",
+    "Cmdline": "/usr/bin/ibus-daemon --panel disable",
+    "VSZ": 465320,
+    "RSS": 11372,
+    "Memory_Usage": 0.034962162651408425,
+    "CPU_Usage": 0.0679597422999813
+  },
+  {
+    "PID": 3867,
+    "Name": "gsd-a11y-settings",
+    "Cmdline": "/usr/libexec/gsd-a11y-settings",
+    "VSZ": 386580,
+    "RSS": 6560,
+    "Memory_Usage": 0.0201681135238515,
+    "CPU_Usage": 0.0014991117736117127
+  },
+  {
+    "PID": 3868,
+    "Name": "gsd-color",
+    "Cmdline": "/usr/libexec/gsd-color",
+    "VSZ": 416436,
+    "RSS": 20480,
+    "Memory_Usage": 0.06296386661104858,
+    "CPU_Usage": 0.00899466975619297
+  },
+  {
+    "PID": 3870,
+    "Name": "gsd-datetime",
+    "Cmdline": "/usr/libexec/gsd-datetime",
+    "VSZ": 434732,
+    "RSS": 12160,
+    "Memory_Usage": 0.037384795800310094,
+    "CPU_Usage": 0.002499768276381575
+  },
+  {
+    "PID": 3874,
+    "Name": "gsd-housekeeping",
+    "Cmdline": "/usr/libexec/gsd-housekeeping",
+    "VSZ": 461924,
+    "RSS": 7360,
+    "Memory_Usage": 0.022627639563345583,
+    "CPU_Usage": 0.026997494148504945
+  },
+  {
+    "PID": 3876,
+    "Name": "gsd-keyboard",
+    "Cmdline": "/usr/libexec/gsd-keyboard",
+    "VSZ": 415280,
+    "RSS": 19520,
+    "Memory_Usage": 0.060012435363655685,
+    "CPU_Usage": 0.007999256743908119
+  },
+  {
+    "PID": 3885,
+    "Name": "gsd-media-keys",
+    "Cmdline": "/usr/libexec/gsd-media-keys",
+    "VSZ": 597660,
+    "RSS": 24532,
+    "Memory_Usage": 0.07542136600108613,
+    "CPU_Usage": 0.015998511924930837
+  },
+  {
+    "PID": 3896,
+    "Name": "gsd-power",
+    "Cmdline": "/usr/libexec/gsd-power",
+    "VSZ": 526972,
+    "RSS": 23360,
+    "Memory_Usage": 0.07181816035322729,
+    "CPU_Usage": 0.020998044867695777
+  },
+  {
+    "PID": 3897,
+    "Name": "gsd-print-notifications",
+    "Cmdline": "/usr/libexec/gsd-print-notifications",
+    "VSZ": 326404,
+    "RSS": 11040,
+    "Memory_Usage": 0.033941459345018375,
+    "CPU_Usage": 0.0024997669614923034
+  },
+  {
+    "PID": 3901,
+    "Name": "gsd-rfkill",
+    "Cmdline": "/usr/libexec/gsd-rfkill",
+    "VSZ": 534072,
+    "RSS": 6080,
+    "Memory_Usage": 0.018692397900155047,
+    "CPU_Usage": 0.003999626732725365
+  },
+  {
+    "PID": 3902,
+    "Name": "gsd-screensaver-proxy",
+    "Cmdline": "/usr/libexec/gsd-screensaver-proxy",
+    "VSZ": 312336,
+    "RSS": 5920,
+    "Memory_Usage": 0.018200492692256234,
+    "CPU_Usage": 0.0014998598540641457
+  },
+  {
+    "PID": 3910,
+    "Name": "gsd-sharing",
+    "Cmdline": "/usr/libexec/gsd-sharing",
+    "VSZ": 546384,
+    "RSS": 12000,
+    "Memory_Usage": 0.03689289059241128,
+    "CPU_Usage": 0.01599850355910755
+  },
+  {
+    "PID": 3911,
+    "Name": "gsd-smartcard",
+    "Cmdline": "/usr/libexec/gsd-smartcard",
+    "VSZ": 388880,
+    "RSS": 8000,
+    "Memory_Usage": 0.02459526039494085,
+    "CPU_Usage": 0.0014998595638451902
+  },
+  {
+    "PID": 3919,
+    "Name": "gsd-sound",
+    "Cmdline": "/usr/libexec/gsd-sound",
+    "VSZ": 396696,
+    "RSS": 9600,
+    "Memory_Usage": 0.029514312473929022,
+    "CPU_Usage": 0.001999812557313027
+  },
+  {
+    "PID": 3923,
+    "Name": "gsd-wacom",
+    "Cmdline": "/usr/libexec/gsd-wacom",
+    "VSZ": 489868,
+    "RSS": 19960,
+    "Memory_Usage": 0.06136517468537742,
+    "CPU_Usage": 0.009499108700411724
+  },
+  {
+    "PID": 3969,
+    "Name": "gsd-disk-utility-notify",
+    "Cmdline": "/usr/libexec/gsd-disk-utility-notify",
+    "VSZ": 305624,
+    "RSS": 7360,
+    "Memory_Usage": 0.022627639563345583,
+    "CPU_Usage": 0.001499859086722445
+  },
+  {
+    "PID": 3992,
+    "Name": "evolution-alarm-notify",
+    "Cmdline": "/usr/libexec/evolution-data-server/evolution-alarm-notify",
+    "VSZ": 827604,
+    "RSS": 60240,
+    "Memory_Usage": 0.18520231077390462,
+    "CPU_Usage": 0.017998306908475255
+  },
+  {
+    "PID": 4038,
+    "Name": "ibus-dconf",
+    "Cmdline": "/usr/libexec/ibus-dconf",
+    "VSZ": 313400,
+    "RSS": 7040,
+    "Memory_Usage": 0.02164382914754795,
+    "CPU_Usage": 0.0004999529198617462
+  },
+  {
+    "PID": 4040,
+    "Name": "ibus-extension-gtk3",
+    "Cmdline": "/usr/libexec/ibus-extension-gtk3",
+    "VSZ": 424864,
+    "RSS": 28400,
+    "Memory_Usage": 0.08731317440204003,
+    "CPU_Usage": 0.13048769721656897
+  },
+  {
+    "PID": 4057,
+    "Name": "ibus-portal",
+    "Cmdline": "/usr/libexec/ibus-portal",
+    "VSZ": 313200,
+    "RSS": 6720,
+    "Memory_Usage": 0.02066001873175032,
+    "CPU_Usage": 0.0019998112477683837
+  },
+  {
+    "PID": 4075,
+    "Name": "gvfs-udisks2-volume-monitor",
+    "Cmdline": "/usr/libexec/gvfs-udisks2-volume-monitor",
+    "VSZ": 466280,
+    "RSS": 11520,
+    "Memory_Usage": 0.035417174968714826,
+    "CPU_Usage": 0.2564757629908975
+  },
+  {
+    "PID": 4091,
+    "Name": "gsd-printer",
+    "Cmdline": "/usr/libexec/gsd-printer",
+    "VSZ": 419012,
+    "RSS": 14720,
+    "Memory_Usage": 0.04525527912669117,
+    "CPU_Usage": 0.0009999054095896922
+  },
+  {
+    "PID": 4114,
+    "Name": "gvfs-goa-volume-monitor",
+    "Cmdline": "/usr/libexec/gvfs-goa-volume-monitor",
+    "VSZ": 312548,
+    "RSS": 6240,
+    "Memory_Usage": 0.019184303108053868,
+    "CPU_Usage": 0.0014998579438315776
+  },
+  {
+    "PID": 4119,
+    "Name": "goa-daemon",
+    "Cmdline": "/usr/libexec/goa-daemon",
+    "VSZ": 549668,
+    "RSS": 23200,
+    "Memory_Usage": 0.07132625514532848,
+    "CPU_Usage": 0.004999525969652715
+  },
+  {
+    "PID": 4129,
+    "Name": "goa-identity-service",
+    "Cmdline": "/usr/libexec/goa-identity-service",
+    "VSZ": 392060,
+    "RSS": 8800,
+    "Memory_Usage": 0.02705478643443494,
+    "CPU_Usage": 0.002499762694512696
+  },
+  {
+    "PID": 4134,
+    "Name": "gvfs-mtp-volume-monitor",
+    "Cmdline": "/usr/libexec/gvfs-mtp-volume-monitor",
+    "VSZ": 312664,
+    "RSS": 6400,
+    "Memory_Usage": 0.01967620831595268,
+    "CPU_Usage": 0.0014998574474047825
+  },
+  {
+    "PID": 4144,
+    "Name": "gvfs-gphoto2-volume-monitor",
+    "Cmdline": "/usr/libexec/gvfs-gphoto2-volume-monitor",
+    "VSZ": 313632,
+    "RSS": 6560,
+    "Memory_Usage": 0.0201681135238515,
+    "CPU_Usage": 0.0014998572776940633
+  },
+  {
+    "PID": 4150,
+    "Name": "gvfs-afc-volume-monitor",
+    "Cmdline": "/usr/libexec/gvfs-afc-volume-monitor",
+    "VSZ": 392152,
+    "RSS": 7520,
+    "Memory_Usage": 0.023119544771244404,
+    "CPU_Usage": 0.006999333164034868
+  },
+  {
+    "PID": 4175,
+    "Name": "evolution-calendar-factory",
+    "Cmdline": "/usr/libexec/evolution-calendar-factory",
+    "VSZ": 1106864,
+    "RSS": 23520,
+    "Memory_Usage": 0.07231006556112611,
+    "CPU_Usage": 0.008499188831307024
+  },
+  {
+    "PID": 4180,
+    "Name": "ibus-engine-simple",
+    "Cmdline": "/usr/libexec/ibus-engine-simple",
+    "VSZ": 239688,
+    "RSS": 7040,
+    "Memory_Usage": 0.02164382914754795,
+    "CPU_Usage": 0.01899818359097167
+  },
+  {
+    "PID": 4204,
+    "Name": "evolution-addressbook-factory",
+    "Cmdline": "/usr/libexec/evolution-addressbook-factory",
+    "VSZ": 828440,
+    "RSS": 28800,
+    "Memory_Usage": 0.08854293742178708,
+    "CPU_Usage": 0.005999425644640944
+  },
+  {
+    "PID": 4234,
+    "Name": "gvfsd-trash",
+    "Cmdline": "/usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0",
+    "VSZ": 612404,
+    "RSS": 8480,
+    "Memory_Usage": 0.026070976018637303,
+    "CPU_Usage": 0.012505053989949291
+  },
+  {
+    "PID": 4253,
+    "Name": "dconf-service",
+    "Cmdline": "/usr/libexec/dconf-service",
+    "VSZ": 230372,
+    "RSS": 5760,
+    "Memory_Usage": 0.017708587484357413,
+    "CPU_Usage": 0.0010004042177314551
+  },
+  {
+    "PID": 4264,
+    "Name": "xdg-desktop-portal",
+    "Cmdline": "/usr/libexec/xdg-desktop-portal",
+    "VSZ": 704712,
+    "RSS": 13284,
+    "Memory_Usage": 0.04084042988579929,
+    "CPU_Usage": 0.014005657408972126
+  },
+  {
+    "PID": 4276,
+    "Name": "tracker-miner-fs-3",
+    "Cmdline": "/usr/libexec/tracker-miner-fs-3",
+    "VSZ": 748556,
+    "RSS": 31276,
+    "Memory_Usage": 0.09615517051402127,
+    "CPU_Usage": 0.21308604888482763
+  },
+  {
+    "PID": 4280,
+    "Name": "xdg-desktop-portal-gnome",
+    "Cmdline": "/usr/libexec/xdg-desktop-portal-gnome",
+    "VSZ": 781868,
+    "RSS": 41532,
+    "Memory_Usage": 0.12768629434033546,
+    "CPU_Usage": 0.015506259977749879
+  },
+  {
+    "PID": 4290,
+    "Name": "gjs",
+    "Cmdline": "/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver",
+    "VSZ": 2739232,
+    "RSS": 26596,
+    "Memory_Usage": 0.08176694318298088,
+    "CPU_Usage": 0.005502220721128325
+  },
+  {
+    "PID": 4316,
+    "Name": "gvfsd-metadata",
+    "Cmdline": "/usr/libexec/gvfsd-metadata",
+    "VSZ": 239124,
+    "RSS": 6240,
+    "Memory_Usage": 0.019184303108053868,
+    "CPU_Usage": 0.0005002018339497615
+  },
+  {
+    "PID": 4330,
+    "Name": "xdg-desktop-portal-gtk",
+    "Cmdline": "/usr/libexec/xdg-desktop-portal-gtk",
+    "VSZ": 421528,
+    "RSS": 26592,
+    "Memory_Usage": 0.08175464555278339,
+    "CPU_Usage": 0.0075030266695740285
+  },
+  {
+    "PID": 4421,
+    "Name": "snapd-desktop-integration",
+    "Cmdline": "/snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration",
+    "VSZ": 39136,
+    "RSS": 11680,
+    "Memory_Usage": 0.03590908017661364,
+    "CPU_Usage": 0.006505876619348951
+  },
+  {
+    "PID": 4486,
+    "Name": "snapd-desktop-integration",
+    "Cmdline": "/snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration",
+    "VSZ": 430124,
+    "RSS": 29908,
+    "Memory_Usage": 0.09194938098648638,
+    "CPU_Usage": 0.008007231825620385
+  },
+  {
+    "PID": 4576,
+    "Name": "code",
+    "Cmdline": "/snap/code/207/usr/share/code/code --no-sandbox --force-user-env",
+    "VSZ": 1461474836,
+    "RSS": 193056,
+    "Memory_Usage": 0.5935328238507126,
+    "CPU_Usage": 0.6729725955746272
+  },
+  {
+    "PID": 4578,
+    "Name": "code",
+    "Cmdline": "/snap/code/207/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox",
+    "VSZ": 34069564,
+    "RSS": 50400,
+    "Memory_Usage": 0.15495014048812736,
+    "CPU_Usage": 0.0015089070178948374
+  },
+  {
+    "PID": 4579,
+    "Name": "code",
+    "Cmdline": "/snap/code/207/usr/share/code/code --type=zygote --no-sandbox",
+    "VSZ": 34069576,
+    "RSS": 50240,
+    "Memory_Usage": 0.15445823528022856,
+    "CPU_Usage": 0.0015089068720399827
+  },
+  {
+    "PID": 4624,
+    "Name": "chrome_crashpad_handler",
+    "Cmdline": "/snap/code/207/usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/alexander/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171\u0026uid=61573776-44bd-436b-9375-b9ee5486b865\u0026iid=61573776-44bd-436b-9375-b9ee5486b865\u0026sid=61573776-44bd-436b-9375-b9ee5486b865 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.104.1 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.3.1 --initial-client-fd=46 --shared-client-connection",
+    "VSZ": 33576468,
+    "RSS": 3200,
+    "Memory_Usage": 0.00983810415797634,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 4633,
+    "Name": "Xwayland",
+    "Cmdline": "/usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LM9OD3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients",
+    "VSZ": 595144,
+    "RSS": 116936,
+    "Memory_Usage": 0.35950892119285044,
+    "CPU_Usage": 0.5472301032691888
+  },
+  {
+    "PID": 4645,
+    "Name": "gsd-xsettings",
+    "Cmdline": "/usr/libexec/gsd-xsettings",
+    "VSZ": 781768,
+    "RSS": 82016,
+    "Memory_Usage": 0.25215060956893365,
+    "CPU_Usage": 0.012574219884941994
+  },
+  {
+    "PID": 4670,
+    "Name": "ibus-x11",
+    "Cmdline": "/usr/libexec/ibus-x11",
+    "VSZ": 270516,
+    "RSS": 24708,
+    "Memory_Usage": 0.07596246172977483,
+    "CPU_Usage": 0.0065418840447661
+  },
+  {
+    "PID": 4675,
+    "Name": "mutter-x11-frames",
+    "Cmdline": "/usr/libexec/mutter-x11-frames",
+    "VSZ": 1008928,
+    "RSS": 84568,
+    "Memory_Usage": 0.2599964976349197,
+    "CPU_Usage": 0.06894138549220191
+  },
+  {
+    "PID": 4737,
+    "Name": "code",
+    "Cmdline": "/proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=es-419 --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4624 --enable-crash-reporter=4c376db2-8bd9-4038-975e-a8f6244a6914,no_channel --user-data-dir=/home/alexander/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17021739591657848333,17094209915824392588,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version",
+    "VSZ": 33882304,
+    "RSS": 73752,
+    "Memory_Usage": 0.22674370558095971,
+    "CPU_Usage": 0.03623196529035809
+  },
+  {
+    "PID": 4781,
+    "Name": "code",
+    "Cmdline": "/snap/code/207/usr/share/code/code --type=zygote --no-sandbox",
+    "VSZ": 1482016048,
+    "RSS": 511656,
+    "Memory_Usage": 1.5730390690792322,
+    "CPU_Usage": 4.86212643074614
+  },
+  {
+    "PID": 4810,
+    "Name": "code",
+    "Cmdline": "/proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --crashpad-handler-pid=4624 --enable-crash-reporter=4c376db2-8bd9-4038-975e-a8f6244a6914,no_channel --user-data-dir=/home/alexander/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,17021739591657848333,17094209915824392588,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version",
+    "VSZ": 34170844,
+    "RSS": 249104,
+    "Memory_Usage": 0.7658472181776682,
+    "CPU_Usage": 8.455125494574983
+  },
+  {
+    "PID": 5032,
+    "Name": "code",
+    "Cmdline": "/proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=es-419 --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4624 --enable-crash-reporter=4c376db2-8bd9-4038-975e-a8f6244a6914,no_channel --user-data-dir=/home/alexander/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17021739591657848333,17094209915824392588,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version",
+    "VSZ": 1461356956,
+    "RSS": 114636,
+    "Memory_Usage": 0.35243778382930496,
+    "CPU_Usage": 0.7319170804975362
+  },
+  {
+    "PID": 5042,
+    "Name": "code",
+    "Cmdline": "/proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=es-419 --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --crashpad-handler-pid=4624 --enable-crash-reporter=4c376db2-8bd9-4038-975e-a8f6244a6914,no_channel --user-data-dir=/home/alexander/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17021739591657848333,17094209915824392588,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version",
+    "VSZ": 1461303796,
+    "RSS": 546440,
+    "Memory_Usage": 1.679979261276435,
+    "CPU_Usage": 0.9127552426783492
+  },
+  {
+    "PID": 5052,
+    "Name": "code",
+    "Cmdline": "/proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=es-419 --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4624 --enable-crash-reporter=4c376db2-8bd9-4038-975e-a8f6244a6914,no_channel --user-data-dir=/home/alexander/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17021739591657848333,17094209915824392588,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version",
+    "VSZ": 1461293464,
+    "RSS": 117744,
+    "Memory_Usage": 0.3619930424927395,
+    "CPU_Usage": 0.2961920172354662
+  },
+  {
+    "PID": 5053,
+    "Name": "code",
+    "Cmdline": "/proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=es-419 --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4624 --enable-crash-reporter=4c376db2-8bd9-4038-975e-a8f6244a6914,no_channel --user-data-dir=/home/alexander/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17021739591657848333,17094209915824392588,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version",
+    "VSZ": 1461310432,
+    "RSS": 107168,
+    "Memory_Usage": 0.3294781082506277,
+    "CPU_Usage": 0.11887975763075322
+  },
+  {
+    "PID": 5111,
+    "Name": "bash",
+    "Cmdline": "/usr/bin/bash --init-file /snap/code/207/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+    "VSZ": 12688,
+    "RSS": 8800,
+    "Memory_Usage": 0.02705478643443494,
+    "CPU_Usage": 0.006555063327076625
+  },
+  {
+    "PID": 5114,
+    "Name": "bash",
+    "Cmdline": "/usr/bin/bash --init-file /snap/code/207/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+    "VSZ": 12688,
+    "RSS": 8960,
+    "Memory_Usage": 0.027546691642333754,
+    "CPU_Usage": 0.006050826034603472
+  },
+  {
+    "PID": 5125,
+    "Name": "bash",
+    "Cmdline": "/usr/bin/bash --init-file /snap/code/207/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+    "VSZ": 12688,
+    "RSS": 9120,
+    "Memory_Usage": 0.02803859685023257,
+    "CPU_Usage": 0.0035296475269293104
+  },
+  {
+    "PID": 5143,
+    "Name": "bash",
+    "Cmdline": "/usr/bin/bash --init-file /snap/code/207/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+    "VSZ": 12688,
+    "RSS": 9120,
+    "Memory_Usage": 0.02803859685023257,
+    "CPU_Usage": 0.003529646564332176
+  },
+  {
+    "PID": 5153,
+    "Name": "bash",
+    "Cmdline": "/usr/bin/bash --init-file /snap/code/207/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+    "VSZ": 12688,
+    "RSS": 9120,
+    "Memory_Usage": 0.02803859685023257,
+    "CPU_Usage": 0.004033880658818714
+  },
+  {
+    "PID": 5173,
+    "Name": "bash",
+    "Cmdline": "/usr/bin/bash --init-file /snap/code/207/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+    "VSZ": 12688,
+    "RSS": 8800,
+    "Memory_Usage": 0.02705478643443494,
+    "CPU_Usage": 0.0030254096674710847
+  },
+  {
+    "PID": 6614,
+    "Name": "code",
+    "Cmdline": "/snap/code/207/usr/share/code/code /snap/code/207/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=5042",
+    "VSZ": 1459550328,
+    "RSS": 88068,
+    "Memory_Usage": 0.2707569240577064,
+    "CPU_Usage": 0.08408456502294698
+  },
+  {
+    "PID": 7072,
+    "Name": "update-notifier",
+    "Cmdline": "/usr/bin/update-notifier",
+    "VSZ": 573012,
+    "RSS": 34068,
+    "Memory_Usage": 0.10473891639185562,
+    "CPU_Usage": 0.01648462080218424
+  },
+  {
+    "PID": 8092,
+    "Name": "fwupd",
+    "Cmdline": "/usr/libexec/fwupd/fwupd",
+    "VSZ": 485828,
+    "RSS": 44732,
+    "Memory_Usage": 0.13752439849831177,
+    "CPU_Usage": 0.19306178572152527
+  },
+  {
+    "PID": 8190,
+    "Name": "kworker/2:1-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.008942914206643341
+  },
+  {
+    "PID": 8273,
+    "Name": "kworker/10:0-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0009744651699875198
+  },
+  {
+    "PID": 8274,
+    "Name": "kworker/u40:22-events_power_efficient",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.07893166249145378
+  },
+  {
+    "PID": 8279,
+    "Name": "kworker/u40:27-flush-8:0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.02257568419903788
+  },
+  {
+    "PID": 8306,
+    "Name": "kworker/u40:54-flush-8:0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.024725743870416636
+  },
+  {
+    "PID": 8307,
+    "Name": "kworker/u40:55-events_unbound",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.11395340055505992
+  },
+  {
+    "PID": 8321,
+    "Name": "irq/200-mei_me",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0010761887957753376
+  },
+  {
+    "PID": 8325,
+    "Name": "kworker/17:0-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.01076188536102816
+  },
+  {
+    "PID": 8446,
+    "Name": "gjs",
+    "Cmdline": "gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app",
+    "VSZ": 3164752,
+    "RSS": 68216,
+    "Memory_Usage": 0.20972378538766068,
+    "CPU_Usage": 0.08421457930132364
+  },
+  {
+    "PID": 8562,
+    "Name": "kworker/8:2-rcu_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0058397185284311945
+  },
+  {
+    "PID": 8622,
+    "Name": "kworker/12:1-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.010047652742099199
+  },
+  {
+    "PID": 9224,
+    "Name": "kworker/18:2-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.012208255411699313
+  },
+  {
+    "PID": 9242,
+    "Name": "kworker/0:2-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0027129448838232244
+  },
+  {
+    "PID": 9499,
+    "Name": "kworker/u41:0-i915_flip",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.2673189652812941
+  },
+  {
+    "PID": 9904,
+    "Name": "/bin/bash",
+    "Cmdline": "/bin/bash /usr/bin/brave-browser-stable",
+    "VSZ": 12556,
+    "RSS": 3520,
+    "Memory_Usage": 0.010821914573773975,
+    "CPU_Usage": 0.0014832245731502855
+  },
+  {
+    "PID": 9911,
+    "Name": "cat",
+    "Cmdline": "cat",
+    "VSZ": 11044,
+    "RSS": 1760,
+    "Memory_Usage": 0.005410957286886987,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 9912,
+    "Name": "cat",
+    "Cmdline": "cat",
+    "VSZ": 11044,
+    "RSS": 1760,
+    "Memory_Usage": 0.005410957286886987,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 9913,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave",
+    "VSZ": 34327864,
+    "RSS": 306480,
+    "Memory_Usage": 0.9422444257301842,
+    "CPU_Usage": 2.4161706788326827
+  },
+  {
+    "PID": 9915,
+    "Name": "chrome_crashpad_handler",
+    "Cmdline": "/opt/brave.com/brave/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/alexander/.config/BraveSoftware/Brave-Browser/Crash Reports --metrics-dir=/home/alexander/.config/BraveSoftware/Brave-Browser --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=139.1.81.131 --initial-client-fd=5 --shared-client-connection",
+    "VSZ": 33577564,
+    "RSS": 3520,
+    "Memory_Usage": 0.010821914573773975,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 9917,
+    "Name": "chrome_crashpad_handler",
+    "Cmdline": "/opt/brave.com/brave/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/alexander/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=139.1.81.131 --initial-client-fd=4 --shared-client-connection",
+    "VSZ": 33568328,
+    "RSS": 3360,
+    "Memory_Usage": 0.01033000936587516,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 9923,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=zygote --no-zygote-sandbox --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --change-stack-guard-on-fork=enable",
+    "VSZ": 34184896,
+    "RSS": 71040,
+    "Memory_Usage": 0.2184059123070748,
+    "CPU_Usage": 0.004449665086936055
+  },
+  {
+    "PID": 9924,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --change-stack-guard-on-fork=enable",
+    "VSZ": 34184888,
+    "RSS": 71520,
+    "Memory_Usage": 0.2198816279307712,
+    "CPU_Usage": 0.0059328850181015625
+  },
+  {
+    "PID": 9926,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --change-stack-guard-on-fork=enable",
+    "VSZ": 34184916,
+    "RSS": 18520,
+    "Memory_Usage": 0.05693802781428808,
+    "CPU_Usage": 0.007416104127416923
+  },
+  {
+    "PID": 9954,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=gpu-process --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=4,i,5367621486342078620,15704644063534425888,262144 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 34688884,
+    "RSS": 186016,
+    "Memory_Usage": 0.5718889947031647,
+    "CPU_Usage": 3.5917541151582766
+  },
+  {
+    "PID": 9957,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=utility --utility-sub-type=network.mojom.NetworkService --lang=es-419 --service-sandbox-type=none --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3670798543924347885,11230914023369896419,524288 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 34113376,
+    "RSS": 127144,
+    "Memory_Usage": 0.390892473456795,
+    "CPU_Usage": 0.2792595381077412
+  },
+  {
+    "PID": 9967,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=utility --utility-sub-type=storage.mojom.StorageService --lang=es-419 --service-sandbox-type=utility --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,10863311455260130917,14680566361941905933,524288 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 34235396,
+    "RSS": 56656,
+    "Memory_Usage": 0.17418363411697113,
+    "CPU_Usage": 0.014854226236326656
+  },
+  {
+    "PID": 10038,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=es-419 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1758901962726213 --launch-time-ticks=1253924220 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,490661413811009746,8499245431913050582,2097152 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 1459999096,
+    "RSS": 131008,
+    "Memory_Usage": 0.4027719842275514,
+    "CPU_Usage": 0.04165369368073371
+  },
+  {
+    "PID": 10139,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=es-419 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=17 --time-ticks-at-unix-epoch=-1758901962726213 --launch-time-ticks=1255350974 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,2937035464376283368,332588306033204875,2097152 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 1459915600,
+    "RSS": 71772,
+    "Memory_Usage": 0.22065637863321186,
+    "CPU_Usage": 0.0059593912402314065
+  },
+  {
+    "PID": 10147,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=es-419 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1758901962726213 --launch-time-ticks=1255378704 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5242272600708472666,12744466507856208511,2097152 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 1461784796,
+    "RSS": 222164,
+    "Memory_Usage": 0.683022678797705,
+    "CPU_Usage": 2.458248065958015
+  },
+  {
+    "PID": 10168,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=es-419 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1758901962726213 --launch-time-ticks=1256062627 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16143933690730244315,4011148978016735827,2097152 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 1460025188,
+    "RSS": 146128,
+    "Memory_Usage": 0.4492570263739897,
+    "CPU_Usage": 0.059682792244356415
+  },
+  {
+    "PID": 10232,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=es-419 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1758901962726213 --launch-time-ticks=1258412603 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,252880635801629623,4878775718173148568,2097152 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 1459923932,
+    "RSS": 106764,
+    "Memory_Usage": 0.32823604760068315,
+    "CPU_Usage": 0.008979211315461018
+  },
+  {
+    "PID": 10240,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --extension-process --init-isolate-as-foreground --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=es-419 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=18 --time-ticks-at-unix-epoch=-1758901962726213 --launch-time-ticks=1258457738 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13528157837331372285,12277068331306300955,2097152 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 1460051516,
+    "RSS": 153656,
+    "Memory_Usage": 0.4724011664056289,
+    "CPU_Usage": 4.028671547883464
+  },
+  {
+    "PID": 10249,
+    "Name": "brave",
+    "Cmdline": "/opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=9915 --enable-crash-reporter=f86eff05-4c90-473b-948b-7417005d8134, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --pdf-renderer --lang=es-419 --js-flags=--jitless --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=19 --time-ticks-at-unix-epoch=-1758901962726213 --launch-time-ticks=1258609560 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,1566317269086744487,4879545216389495217,2097152 --field-trial-handle=3,i,520147767779953314,4357630063139681057,262144 --disable-features=EyeDropper --variations-seed-version=main@7b4db5ecbc920c1946f278b88b2412acdb23ce54",
+    "VSZ": 1461620832,
+    "RSS": 200404,
+    "Memory_Usage": 0.6161235705234658,
+    "CPU_Usage": 0.09442296776516092
+  },
+  {
+    "PID": 10433,
+    "Name": "kworker/R-tls-s",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 10435,
+    "Name": "kworker/16:1-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.019224268910915287
+  },
+  {
+    "PID": 10522,
+    "Name": "kworker/15:2-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0032991801885309856
+  },
+  {
+    "PID": 10866,
+    "Name": "kworker/2:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0035322486965817337
+  },
+  {
+    "PID": 10877,
+    "Name": "kworker/1:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 10887,
+    "Name": "kworker/13:0-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 10916,
+    "Name": "gnome-terminal-server",
+    "Cmdline": "/usr/libexec/gnome-terminal-server",
+    "VSZ": 708864,
+    "RSS": 61224,
+    "Memory_Usage": 0.18822752780248236,
+    "CPU_Usage": 1.0559981028274714
+  },
+  {
+    "PID": 10925,
+    "Name": "bash",
+    "Cmdline": "bash",
+    "VSZ": 17832,
+    "RSS": 8960,
+    "Memory_Usage": 0.027546691642333754,
+    "CPU_Usage": 0.014135322144681129
+  },
+  {
+    "PID": 11027,
+    "Name": "kworker/12:0-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11134,
+    "Name": "kworker/4:0-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.002073767983311398
+  },
+  {
+    "PID": 11141,
+    "Name": "kworker/19:1-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11142,
+    "Name": "kworker/15:3-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.002117680759742132
+  },
+  {
+    "PID": 11176,
+    "Name": "kworker/17:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11185,
+    "Name": "kworker/14:0-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11190,
+    "Name": "kworker/10:1-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.006845943430678247
+  },
+  {
+    "PID": 11191,
+    "Name": "kworker/u40:0-events_power_efficient",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0709031618754705
+  },
+  {
+    "PID": 11235,
+    "Name": "kworker/11:3-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11236,
+    "Name": "kworker/6:2-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.0045743906199159174
+  },
+  {
+    "PID": 11237,
+    "Name": "kworker/8:1-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.004574387151319559
+  },
+  {
+    "PID": 11258,
+    "Name": "kworker/9:1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11259,
+    "Name": "kworker/5:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11321,
+    "Name": "kworker/u41:1-rb_allocator",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11658,
+    "Name": "kworker/18:0-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 11673,
+    "Name": "kworker/3:2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12029,
+    "Name": "psimon",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12040,
+    "Name": "systemctl",
+    "Cmdline": "systemctl status mydaemon",
+    "VSZ": 22548,
+    "RSS": 6276,
+    "Memory_Usage": 0.019294981779831098,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12041,
+    "Name": "pager",
+    "Cmdline": "pager",
+    "VSZ": 11288,
+    "RSS": 2560,
+    "Memory_Usage": 0.007870483326381073,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12058,
+    "Name": "kworker/2:0",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12076,
+    "Name": "kworker/15:0-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12096,
+    "Name": "go",
+    "Cmdline": "go run daemon.go",
+    "VSZ": 1242580,
+    "RSS": 19140,
+    "Memory_Usage": 0.05884416049489599,
+    "CPU_Usage": 0.29772878862295776
+  },
+  {
+    "PID": 12277,
+    "Name": "daemon",
+    "Cmdline": "/home/alexander/.cache/go-build/9d/9d08f06be3ca18ec9001cc0d0c364959b7e5256df7467fb75f71051912e3e128-d/daemon",
+    "VSZ": 1896500,
+    "RSS": 12188,
+    "Memory_Usage": 0.03747087921169239,
+    "CPU_Usage": 2.8284177862600552
+  },
+  {
+    "PID": 12465,
+    "Name": "kworker/16:0-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.03565793970527631
+  },
+  {
+    "PID": 12466,
+    "Name": "kworker/13:1-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0.007131570857425354
+  },
+  {
+    "PID": 12519,
+    "Name": "containerd-shim-runc-v2",
+    "Cmdline": "/usr/bin/containerd-shim-runc-v2 -namespace moby -id 171189b3bd676391bad437f07a061d61232be7686e88a92fd9b126b815f4242a -address /run/containerd/containerd.sock",
+    "VSZ": 1237912,
+    "RSS": 12960,
+    "Memory_Usage": 0.039844321839804187,
+    "CPU_Usage": 0.021394655247078436
+  },
+  {
+    "PID": 12557,
+    "Name": "kworker/19:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12580,
+    "Name": "kworker/1:1-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12581,
+    "Name": "kworker/7:1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12594,
+    "Name": "containerd-shim-runc-v2",
+    "Cmdline": "/usr/bin/containerd-shim-runc-v2 -namespace moby -id dc4e8985106004d5aa2fa6313de0134ed7a27b3afb891f10a33d7100f34ae8eb -address /run/containerd/containerd.sock",
+    "VSZ": 1237912,
+    "RSS": 12800,
+    "Memory_Usage": 0.03935241663190536,
+    "CPU_Usage": 0.014365372441172653
+  },
+  {
+    "PID": 12634,
+    "Name": "kworker/12:2-rcu_par_gp",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12635,
+    "Name": "kworker/4:2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 12670,
+    "Name": "containerd-shim-runc-v2",
+    "Cmdline": "/usr/bin/containerd-shim-runc-v2 -namespace moby -id 8e8679f4307c3861e2813e06bf8fd4b0006782676c96718a031ea99bd6a8b1f0 -address /run/containerd/containerd.sock",
+    "VSZ": 1237912,
+    "RSS": 13116,
+    "Memory_Usage": 0.04032392941750553,
+    "CPU_Usage": 0.01436526429965438
+  },
+  {
+    "PID": 12737,
+    "Name": "containerd-shim-runc-v2",
+    "Cmdline": "/usr/bin/containerd-shim-runc-v2 -namespace moby -id 81164d5e63ae744e5cb02e4f540d28846791494c0e787fb31117a71b580f7a47 -address /run/containerd/containerd.sock",
+    "VSZ": 1237912,
+    "RSS": 12960,
+    "Memory_Usage": 0.039844321839804187,
+    "CPU_Usage": 0.021703689769669604
+  },
+  {
+    "PID": 12805,
+    "Name": "containerd-shim-runc-v2",
+    "Cmdline": "/usr/bin/containerd-shim-runc-v2 -namespace moby -id 3fa783ceb6918f2fc3a15074e84d5dc0ca16d1c110717f04d938a7dae1e74d27 -address /run/containerd/containerd.sock",
+    "VSZ": 1238168,
+    "RSS": 13120,
+    "Memory_Usage": 0.040336227047703,
+    "CPU_Usage": 0.021703590500230033
+  },
+  {
+    "PID": 13232,
+    "Name": "bash",
+    "Cmdline": "/usr/bin/bash --init-file /snap/code/207/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+    "VSZ": 12688,
+    "RSS": 8800,
+    "Memory_Usage": 0.02705478643443494,
+    "CPU_Usage": 0.08581244783143187
+  },
+  {
+    "PID": 13417,
+    "Name": "kworker/6:1-events",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 13538,
+    "Name": "kworker/u41:2",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 13569,
+    "Name": "kworker/17:1",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 13756,
+    "Name": "sqlite3",
+    "Cmdline": "sqlite3 so1_metrics.db",
+    "VSZ": 6796,
+    "RSS": 4480,
+    "Memory_Usage": 0.013773345821166877,
+    "CPU_Usage": 0
+  },
+  {
+    "PID": 14102,
+    "Name": "kworker/15:1-mm_percpu_wq",
+    "VSZ": 0,
+    "RSS": 0,
+    "Memory_Usage": 0,
+    "CPU_Usage": 0
+  }
+]
