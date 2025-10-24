@@ -1,0 +1,21 @@
+# Stage 1: Build
+FROM golang:1.25-alpine AS builder
+RUN apk add --no-cache git ca-certificates
+
+WORKDIR /app
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+
+# Compilar ejecutable
+RUN go build -o server ./server
+
+# Stage 2: Imagen ligera
+FROM alpine:latest
+RUN apk add --no-cache ca-certificates
+
+WORKDIR /app
+COPY --from=builder /app/server .
+
+EXPOSE 50051
+CMD ["./server"]

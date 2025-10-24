@@ -1,0 +1,35 @@
+# Dockerfile para KafkaWriter (prueba de productor)
+
+# Etapa de construcción
+FROM golang:1.25-alpine AS builder
+
+# Instala dependencias básicas
+RUN apk add --no-cache git ca-certificates
+
+# Directorio de trabajo
+WORKDIR /app
+
+# Copia los archivos de módulos Go
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copia todo el proyecto
+COPY . .
+
+# Compila un ejecutable de prueba que use KafkaWriter
+# Por ejemplo: Proyecto3/go-services/writers/kafka_test.go debe existir y usar KafkaWriter
+RUN go build -o kafka-producer ./writers
+
+# Etapa final
+FROM alpine:latest
+RUN apk add --no-cache ca-certificates
+
+WORKDIR /app
+COPY --from=builder /app/kafka-producer .
+
+# Variables de entorno por defecto (pueden sobrescribirse en Kubernetes)
+ENV KAFKA_BROKERS=localhost:9092
+ENV KAFKA_TOPIC=tweets-clima
+
+# Comando por defecto
+CMD ["./kafka-producer"]

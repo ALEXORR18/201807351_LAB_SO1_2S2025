@@ -1,0 +1,30 @@
+# Etapa 1: Compilación
+FROM golang:1.25-alpine AS builder
+
+RUN apk add --no-cache git ca-certificates
+
+WORKDIR /app
+
+# Copiar dependencias
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copiar todo el código fuente
+COPY . .
+
+# Compilar el archivo valkey.go
+RUN go build -o valkey-consumer ./consumers/valkey.go
+
+# Etapa 2: Imagen final ligera
+FROM alpine:latest
+RUN apk add --no-cache ca-certificates
+
+WORKDIR /app
+COPY --from=builder /app/valkey-consumer .
+
+# Variables de entorno por defecto
+ENV RABBITMQ_URL=amqp://guest:guest@rabbitmq-service:5672/
+ENV VALKEY_SERVICE_URL=valkey-service:6379
+
+# Comando de ejecución
+CMD ["./valkey-consumer"]

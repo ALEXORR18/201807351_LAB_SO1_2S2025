@@ -1,0 +1,13 @@
+# Cargo
+target/
+**/*.rs.bk
+
+# Rust / IDE
+Cargo.lock
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs y temporales
+*.log

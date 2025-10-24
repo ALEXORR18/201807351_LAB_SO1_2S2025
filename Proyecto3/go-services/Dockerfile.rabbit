@@ -1,0 +1,36 @@
+# Dockerfile.rabbit
+# Dockerfile para RabbitWriter (prueba de productor)
+
+# Etapa de construcción
+FROM golang:1.25-alpine AS builder
+
+# Instala dependencias básicas
+RUN apk add --no-cache git ca-certificates
+
+# Directorio de trabajo
+WORKDIR /app
+
+# Copia los archivos de módulos Go
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copia todo el proyecto
+COPY . .
+
+# Compila un ejecutable de prueba que use RabbitWriter
+# Por ejemplo: Proyecto3/go-services/writers/rabbit_test.go debe existir y usar RabbitWriter
+RUN go build -o rabbit-producer ./writers
+
+# Etapa final
+FROM alpine:latest
+RUN apk add --no-cache ca-certificates
+
+WORKDIR /app
+COPY --from=builder /app/rabbit-producer .
+
+# Variables de entorno por defecto (pueden sobrescribirse en Kubernetes)
+ENV RABBIT_URL=amqp://guest:guest@localhost:5672/
+ENV RABBIT_QUEUE=tweets_clima
+
+# Comando por defecto
+CMD ["./rabbit-producer"]
